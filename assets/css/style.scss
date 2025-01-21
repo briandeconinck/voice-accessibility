@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+/* Global */
+
+body {
+  color: #333;
+}
+
 a {
   text-decoration: underline;
   text-underline-position: under;
@@ -13,4 +19,27 @@ a {
     color: #fff;
     background-color: #4300cc;
   }
+}
+
+/* Page Header */
+
+.page-header {
+  color: #333;
+  text-align: left;
+  background-color: #fff;
+  background-image: none;
+}
+
+.project-name {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.project-tagline {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-weight: 400;
 }
