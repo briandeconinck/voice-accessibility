@@ -1,0 +1,10 @@
+{
+  "test1": {
+    "attr1": "Attribute 1-1",
+    "attr2": "Attribute 2-1"
+  },
+  "test2": {
+    "attr1": "Attribute 1-2",
+    "attr2": "Attribute 2-2"
+  }
+}
