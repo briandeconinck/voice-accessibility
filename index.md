@@ -4,7 +4,7 @@ Testing, one, two, three
 
 JSON test:
 
-{{ site.data.test.test1.attr1 }}
+{{ site.data.test.test1.attr1 }} ??
 
 <ul>
 {% for item in site.data.test %}
