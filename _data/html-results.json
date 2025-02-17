@@ -1,7 +1,7 @@
 [
   {
     "id": "macos-voice-control",
-    "version:" "MacOS 14.7",
+    "version": "MacOS 14.7",
     "test": {
       {
         "Task": "Standard link - no ARIA",
