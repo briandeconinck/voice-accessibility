@@ -1,0 +1,206 @@
+[
+  {
+    "id": "macos-voice-control",
+    "version:" "MacOS 14.7",
+    "test": {
+      {
+        "Task": "Standard link - no ARIA",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "N/A",
+        "Behavior": "Click, [visible label]:\" Link activates",
+        "Video (optional)": "All MacOS Voice Control standard link tests clip",
+        "Notes (optional)": "<a>: Voice Control activates based on the accessible name, whether it's the visible name or created via ARIA"
+      },
+      {
+        "Task": "Standard link - no ARIA, duplicate",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "N/A",
+        "Behavior": "Click, [visible label]:\" Each link gets a number overlay (the first, 1, the second, 2). Then you say the number to activate that link.",
+        "Video (optional)": "All MacOS Voice Control standard link tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard link - aria-label, beginning match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Link activates",
+        "Video (optional)": "All MacOS Voice Control standard link tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard link - aria-label, match in the middle",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Link activates",
+        "Video (optional)": "All MacOS Voice Control standard link tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard link - aria-label, no match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Link activates",
+        "Video (optional)": "All MacOS Voice Control standard link tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard link - aria-labelledby",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-labelledby computed accName]\": Link activates",
+        "Video (optional)": "All MacOS Voice Control standard link tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard button - no ARIA",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "N/A",
+        "Behavior": "Click, [visible label]:\" Button activates",
+        "Video (optional)": "All MacOS Voice Control standard button tests clip",
+        "Notes (optional)": "<button>: Voice Control activates based on the accessible name, whether it's the visible name or created via ARIA"
+      },
+      {
+        "Task": "Standard button - no ARIA, duplicate",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "N/A",
+        "Behavior": "Click, [visible label]:\" Each button gets a number overlay (the first, 1, the second, 2). Then you say the number to activate that link.",
+        "Video (optional)": "All MacOS Voice Control standard button tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard button - aria-label, beginning match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Button activates",
+        "Video (optional)": "All MacOS Voice Control standard button tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard button - aria-label, match in the middle",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Button activates",
+        "Video (optional)": "All MacOS Voice Control standard button tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard button, aria-label, no match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Button activates",
+        "Video (optional)": "All MacOS Voice Control standard button tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard button, aria-labelledby",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-labelledby computed accName]\": Button activates",
+        "Video (optional)": "All MacOS Voice Control standard button tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard text input -  no ARIA",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "N/A",
+        "Behavior": "Click, [visible label]:\" Input receives focus, text cursor active",
+        "Video (optional)": "All MacOS Voice Control standard text input tests clip",
+        "Notes (optional)": "<input type=\"text\">: Voice Control activates based on the accessible name, whether it's the visible name or created via ARIA"
+      },
+      {
+        "Task": "Standard text input -  aria-label, beginning match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Input receives focus, text cursor active",
+        "Video (optional)": "All MacOS Voice Control standard text input tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard text input -  aria-label, middle match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Input receives focus, text cursor active",
+        "Video (optional)": "All MacOS Voice Control standard text input tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard text input -  aria-label, no match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Nothing happens\n\"Click, [aria-label]\": Input receives focus, text cursor active",
+        "Video (optional)": "All MacOS Voice Control standard text input tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard radio buttons -  aria-label, beginning match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Radio button receives focus, selected\n\"Click, [aria-label]:\" The button gets a number overlay, \"1.\" Then you say the number to activate the button.",
+        "Video (optional)": "All Mac OS Voice Control standard radio button input tests clip",
+        "Notes (optional)": "<input type=\"radio\">: Voice Control activates based on EITHER\n- the visible name, regardless of aria-label, OR\n- the accessible name"
+      },
+      {
+        "Task": "Standard radio buttons -  aria-label, middle match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]:\" Radio button receives focus, selected\n\"Click, [aria-label]:\" The button gets a number overlay, \"1.\" Then you say the number to activate the button.",
+        "Video (optional)": "All Mac OS Voice Control standard radio button input tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard radio buttons -  aria-label, no match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "",
+        "Video (optional)": "All Mac OS Voice Control standard radio button input tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard checkbox - aria-label, beginning match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]\": Checkbox receives focus, checked (or unchecked)\n\"Click, [aria-label]\": Checkbox receives focus, checked (or unchecked)",
+        "Video (optional)": "All Mac OS Voice Control standard checkbox input tests clip",
+        "Notes (optional)": "<input type=\"checkbox\">: Voice Control picks up both the visible label and ARIA if the aria-label is contained within the name..."
+      },
+      {
+        "Task": "Standard checkbox - aria-label, middle match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "Yes",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]\": Checkbox receives focus, checked (or unchecked)\n\"Click, [aria-label]\": Checkbox receives focus, checked (or unchecked)",
+        "Video (optional)": "All Mac OS Voice Control standard checkbox input tests clip",
+        "Notes (optional)": ""
+      },
+      {
+        "Task": "Standard checkbox - aria-label, no match",
+        "Reviewer": "Jamie",
+        "Activate using visual label?": "No",
+        "Activate using ARIA?": "Yes",
+        "Behavior": "Click, [visible label]\": Nothing happens\n\"Click, [aria-label]\": Checkbox receives focus, checked (or unchecked)",
+        "Video (optional)": "All Mac OS Voice Control standard checkbox input tests clip",
+        "Notes (optional)": "...but if they don't match at all, it only uses the aria-label."
+      }
+    }
+  }
+]
