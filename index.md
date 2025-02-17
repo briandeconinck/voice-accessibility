@@ -4,10 +4,10 @@ Testing, one, two, three
 
 JSON test:
 
-{{ site.data.test.test1.attr1 }} ??
+Output: {{ site.data.html-results.macos-voice-control.test[0].task }} 
 
 <ul>
-{% for item in site.data.test %}
+{% for test in site.data.html-results %}
   <li>
     {{ item.attr1 }}, {{ item.attr2 }}
   </li>
